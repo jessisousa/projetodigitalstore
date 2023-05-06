@@ -7,7 +7,9 @@
   font-family: 'Inter', sans-serif;
   
 }
-
+.background {
+  background: #E5E5E5;
+}
 .rooh {
   height: 170px;
   width: 100%;
@@ -202,7 +204,7 @@
    color: #dad8d8;
  }
  
- .img-tenis img {
+ .img-sapato img {
    width: 700px;
    height: 500px;
    transform: rotate(-6deg);
@@ -215,10 +217,17 @@
    left: -80px;
    top: 25px;
  }
- 
- .background {
-   background: #E5E5E5;
+ label{
+  display: flex;
+  flex-direction: row;
+
  }
+ 
+ .the-render{
+  display: flex;
+  justify-content: center;
+
+}
  
  .itens-footer {
    background-color: #1F1F1F;
